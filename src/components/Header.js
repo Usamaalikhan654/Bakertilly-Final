@@ -236,6 +236,7 @@ class Header extends Component {
             justifyContent: "center",
             flexDirection: "column",
             height: this.state.search ? 230 : 150,
+            fontFamily: "carnac",
           }}
           color="indigo"
           expand="lg"
