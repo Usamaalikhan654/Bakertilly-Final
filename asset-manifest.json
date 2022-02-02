@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Bakertilly-Final/static/css/main.2a3bce08.chunk.css",
-    "main.js": "/Bakertilly-Final/static/js/main.2f3221f1.chunk.js",
-    "main.js.map": "/Bakertilly-Final/static/js/main.2f3221f1.chunk.js.map",
+    "main.css": "/Bakertilly-Final/static/css/main.71587343.chunk.css",
+    "main.js": "/Bakertilly-Final/static/js/main.3be2d591.chunk.js",
+    "main.js.map": "/Bakertilly-Final/static/js/main.3be2d591.chunk.js.map",
     "runtime-main.js": "/Bakertilly-Final/static/js/runtime-main.b5e75791.js",
     "runtime-main.js.map": "/Bakertilly-Final/static/js/runtime-main.b5e75791.js.map",
     "static/css/2.d8e067f9.chunk.css": "/Bakertilly-Final/static/css/2.d8e067f9.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.edea39ef.chunk.js.map": "/Bakertilly-Final/static/js/3.edea39ef.chunk.js.map",
     "index.html": "/Bakertilly-Final/index.html",
     "static/css/2.d8e067f9.chunk.css.map": "/Bakertilly-Final/static/css/2.d8e067f9.chunk.css.map",
-    "static/css/main.2a3bce08.chunk.css.map": "/Bakertilly-Final/static/css/main.2a3bce08.chunk.css.map",
+    "static/css/main.71587343.chunk.css.map": "/Bakertilly-Final/static/css/main.71587343.chunk.css.map",
     "static/js/2.c330bd64.chunk.js.LICENSE.txt": "/Bakertilly-Final/static/js/2.c330bd64.chunk.js.LICENSE.txt",
     "static/media/1.751be0f2.jpg": "/Bakertilly-Final/static/media/1.751be0f2.jpg",
     "static/media/1.be8f94d5.jpeg": "/Bakertilly-Final/static/media/1.be8f94d5.jpeg",
@@ -28,7 +28,7 @@
     "static/media/6.bea9815d.jpg": "/Bakertilly-Final/static/media/6.bea9815d.jpg",
     "static/media/7.8f4b7c2f.jpg": "/Bakertilly-Final/static/media/7.8f4b7c2f.jpg",
     "static/media/8.e8aea552.jpg": "/Bakertilly-Final/static/media/8.e8aea552.jpg",
-    "static/media/style.css": "/Bakertilly-Final/static/media/Carnac-ExtraBold.d0708bf5.otf",
+    "static/media/style.css": "/Bakertilly-Final/static/media/Roboto-Regular.a8d6ac03.ttf",
     "static/media/GB.a33c62b4.png": "/Bakertilly-Final/static/media/GB.a33c62b4.png",
     "static/media/aar.ede07d08.jpg": "/Bakertilly-Final/static/media/aar.ede07d08.jpg",
     "static/media/aboutus.46aeed00.jpg": "/Bakertilly-Final/static/media/aboutus.46aeed00.jpg",
@@ -70,7 +70,7 @@
     "static/js/runtime-main.b5e75791.js",
     "static/css/2.d8e067f9.chunk.css",
     "static/js/2.c330bd64.chunk.js",
-    "static/css/main.2a3bce08.chunk.css",
-    "static/js/main.2f3221f1.chunk.js"
+    "static/css/main.71587343.chunk.css",
+    "static/js/main.3be2d591.chunk.js"
   ]
 }
