@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Screens/Home";
 import AuditAssurance from "./Screens/Services/auditAssurance";
 import CorprateFinance from "./Screens/Services/CorporateFinanceBusiness";
@@ -27,7 +27,7 @@ import WhyBakertilly from "./Screens/About/WhyBakertilly";
 export default class MainRouter extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/services/audit" component={AuditAssurance} />
