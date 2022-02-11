@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Screens/Home";
 import AuditAssurance from "./Screens/Services/auditAssurance";
 import CorprateFinance from "./Screens/Services/CorporateFinanceBusiness";
@@ -23,11 +23,12 @@ import PrivacyStatement from "./Screens/FooterPages/privacyStatement";
 import Disclaimer from "./Screens/FooterPages/disclaimer";
 import Global from "./Screens/global/global";
 import WhyBakertilly from "./Screens/About/WhyBakertilly";
+import Calendar from "./components/Calendar.js";
 
 export default class MainRouter extends Component {
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/services/audit" component={AuditAssurance} />
@@ -73,6 +74,7 @@ export default class MainRouter extends Component {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/news" component={News} />
           <Route exact path="/publications" component={Publications} />
+          <Route exact path="/calendar" component={Calendar} />
           <Route exact path="/privacy" component={PrivacyStatement} />
           <Route exact path="/disclaimer" component={Disclaimer} />
           <Route exact path="/wwd" component={Global} />

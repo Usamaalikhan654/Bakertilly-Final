@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../assets/styles/style.css";
 import Logo from "../assets/img/white.png";
+import link from "../components/Firm.pdf";
 
 export default class Footer extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class Footer extends Component {
           width: "100%",
           flex: 1,
           background: "#181818",
+          marginTop: 80
         }}
       >
         <div
@@ -21,6 +23,7 @@ export default class Footer extends Component {
             paddingBottom: 50,
             paddingLeft: 100,
             paddingRight: 100,
+           
           }}
           className="row"
         >
@@ -210,13 +213,11 @@ export default class Footer extends Component {
                   cursor: "pointer",
                 }}
               >
-                <a
-                  href="https://www.bakertilly.pk/pdf/firm.pdf"
-                  target="_blank"
-                  style={{ color: "white", textDecorationLine: "none" }}
+                <button
+                  style={{ color: "white", textDecorationLine: "none" , border: "none" , backgroundColor: " black"}}
                 >
-                  Firm Profile
-                </a>
+                  <a  href={link} target="_blank" style={{ color: "white", textDecoration: "none"}}>Firm Profile</a>
+                </button>
               </p>
               <p
                 onClick={() => this.props.history.push("/privacy")}

@@ -14,7 +14,7 @@ import {
   MDBDropdownItem,
   MDBIcon,
 } from "mdbreact";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, withRouter } from "react-router-dom";
 import Logo from "../assets/img/logo.png";
 import "../assets/styles/style.css";
 import Icon from "@material-ui/core/Icon";
@@ -176,6 +176,12 @@ class Header extends Component {
         id: 3,
       },
       {
+        label: "Calendar",
+        value: "Calendar",
+        path: "/calendar#main",
+        id: 3,
+      },
+      {
         label: "Careers",
         value: "Careers",
         path: "/careers#main",
@@ -235,7 +241,7 @@ class Header extends Component {
             display: "flex",
             justifyContent: "center",
             flexDirection: "column",
-            height: this.state.search ? 230 : 150,
+            height: this.state.search ? 230 : 130,
             fontFamily: "carnac",
           }}
           color="indigo"
@@ -653,6 +659,17 @@ class Header extends Component {
                           >
                             publications
                           </Dropdown.Item>
+
+                          <Dropdown.Item
+                            onClick={() => {
+                              this.saveToLocalStorage(3);
+                              this.props.history.push("/calendar");
+                            }}
+                            className="navItemStyle"
+                            style={{ color: this.state.menuColor }}
+                          >
+                            Events
+                          </Dropdown.Item>
                         </div>
                       ) : null}
                     </MDBDropdown>
@@ -881,4 +898,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default withRouter (Header);

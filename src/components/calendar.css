@@ -1,0 +1,149 @@
+.icon-dapulse-addbtn {
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+
+  color: #66ccf5;
+  display: inline-block;
+  font-family: "dapulse";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+.icon-dapulse-addbtn::after {
+  content: "\f10d";
+}
+
+.mainSpp {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.mainSpp .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.companyLogo {
+  margin: 16px;
+  height: 44px;
+}
+#attribution {
+  float: right;
+  font-family: "sofia-pro";
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(51, 51, 51, 1);
+  text-align: left;
+}
+#attribution span {
+  vertical-align: 7px;
+  padding-right: 5px;
+}
+#attribution img {
+  width: 100px;
+  position: relative;
+}
+
+.top-cta {
+  float: right;
+  font-family: "sofia-pro";
+  font-size: 14px;
+  color: rgba(51, 51, 51, 1);
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.top-cta a {
+  text-decoration: none;
+}
+
+.top-cta a:hover {
+  text-decoration: underline;
+}
+
+.cta {
+  vertical-align: bottom;
+  float: left;
+  margin-top: 1px;
+}
+.cta a {
+  text-decoration: none;
+  font-family: "sofia-pro";
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 4px;
+  color: rgba(51, 51, 51, 1);
+  text-align: left;
+}
+.embeddedBoard {
+  width: 100%;
+  height: calc(100vh - 160px);
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 11px;
+  box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.11);
+  margin-top: 145px;
+}
+@media screen and (max-width: 500px) {
+  .cta {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .top-cta {
+    display: none;
+  }
+}
+
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * sofia-pro:
+ *   - http://typekit.com/eulas/00000000000000003b9b1aa0
+ *   - http://typekit.com/eulas/00000000000000003b9b1a9e
+ *   - http://typekit.com/eulas/00000000000000003b9b1a9d
+ *   - http://typekit.com/eulas/00000000000000003b9b1a96
+ *   - http://typekit.com/eulas/00000000000000003b9b1a98
+ *   - http://typekit.com/eulas/00000000000000003b9b1a97
+ * sofia-pro-condensed:
+ *   - http://typekit.com/eulas/0000000000000000000157d2
+ *   - http://typekit.com/eulas/0000000000000000000157d3
+ *   - http://typekit.com/eulas/0000000000000000000157da
+ *   - http://typekit.com/eulas/0000000000000000000157db
+ * sofia-pro-soft:
+ *   - http://typekit.com/eulas/0000000000000000000157b7
+ *   - http://typekit.com/eulas/0000000000000000000157b8
+ *   - http://typekit.com/eulas/0000000000000000000157bc
+ *   - http://typekit.com/eulas/0000000000000000000157bd
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2018-11-01 12:54:25 UTC"}*/
+
+.tk-sofia-pro-soft {
+  font-family: "sofia-pro-soft", sans-serif;
+}
+.tk-sofia-pro {
+  font-family: "sofia-pro", sans-serif;
+}
+.tk-sofia-pro-condensed {
+  font-family: "sofia-pro-condensed", sans-serif;
+}
