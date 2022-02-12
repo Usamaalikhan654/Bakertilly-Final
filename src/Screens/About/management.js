@@ -93,7 +93,7 @@ export default class Management extends Component {
               >
                 <img src={partner6} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Mehmood A. Razzak</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Mehmood A. Razzak</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Managing Partner - Assurance and Business Advisory Services
@@ -126,7 +126,7 @@ He is currently member of News and Views Committee of KTBA.
               >
                 <img src={partner7} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Mohammed Rehan Siddiqui </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Mohammed Rehan Siddiqui </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Tax Advisory Services
@@ -161,7 +161,7 @@ He is currently member of News and Views Committee of KTBA.
               >
                 <img src={partner2} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Aqeel Tabani </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Aqeel Tabani </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner - Assurance and Business Advisory Services
@@ -193,7 +193,7 @@ He is currently member of News and Views Committee of KTBA.
               >
                 <img src={partner10} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Qamar Rashid </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Qamar Rashid </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner - Tax Advisory Services
@@ -226,7 +226,7 @@ He is currently member of News and Views Committee of KTBA.
               >
                 <img src={partner13} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Tariq Ahmad Khan </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Tariq Ahmad Khan </h6>
 
                   <p
                     // className="aboutContent"
@@ -262,7 +262,7 @@ He also possesses valuable reputation for his expertise in the public sector wor
               >
                 <img src={partner1} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Abdur Rub Khan </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Abdur Rub Khan </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Assurance and Business Advisory Services
@@ -294,7 +294,7 @@ He also possesses valuable reputation for his expertise in the public sector wor
               >
                 <img src={partner12} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Siraj Ahmad</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Siraj Ahmad</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner - Assurance and Business Advisory Services
@@ -325,7 +325,7 @@ He is also engaged in educational, training and capacity development activities 
               >
                 <img src={partner3} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Muhammad Bilal Ahmed</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muhammad Bilal Ahmed</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner - Assurance and Business Advisory Services
@@ -363,7 +363,7 @@ He is also engaged in educational, training and capacity development activities 
               >
                 <img src={partner5} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Muhammad Abu Bakar</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muhammad Abu Bakar</h6>
 
                   <p
                     // className="aboutContent"
@@ -394,7 +394,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={partner8} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Muhammad Tariq Rafique</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muhammad Tariq Rafique</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Business Advisory Services
@@ -422,7 +422,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={partner11} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Rizwan Iqbal Umer</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Rizwan Iqbal Umer</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Tax Advisory Services
@@ -446,7 +446,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={faisal} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Muhammad Faisal Yaqub</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muhammad Faisal Yaqub</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Tax Advisory Services
@@ -476,7 +476,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={aar} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Ali A. Rahim </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Ali A. Rahim </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director – Tax Advisory Services.
@@ -507,7 +507,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={nm} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Naeem Mehmood</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Naeem Mehmood</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director – Corporate and Business Advisory
@@ -538,7 +538,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={mas} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Muneeb Ahmed Siddiqui</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muneeb Ahmed Siddiqui</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director – Assurance and Business Advisory Services.
@@ -567,7 +567,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={sk} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Salman Khattak</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Salman Khattak</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director - Audit and Assurance
@@ -612,7 +612,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={sua} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Sayyed Ul Abrar</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Sayyed Ul Abrar</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director – Business Advisory Services
@@ -643,7 +643,7 @@ In between working for accounting firms, Mr. Haroon Khan has also led the financ
               >
                 <img src={haroon} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18 }}>Haroon Khan</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Haroon Khan</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director Assurance Services

@@ -94,7 +94,7 @@ export default class InternalAudit extends Component {
                     color: "#000",
                     padding: 25,
                     lineHeight: "1.5rem",
-                    fontFamily: "CarnacBold, Arial, Helvetica, sans-serif",
+                    fontFamily: "robotoRegular, Arial, Helvetica, sans-serif",
                   }}
                 >
                   Our approach relating to Internal Audit is based on the

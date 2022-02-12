@@ -390,6 +390,57 @@ export default class Contact extends Component {
                       </p>
                     </div>
                   </div>
+
+                  <div
+                      style={{
+                        background: "white",
+                        padding: 25,
+                        borderTopWidth: 6,
+                        borderTopColor: "#d1eb50",
+                        borderTopStyle: "solid",
+                        flex: 1,
+                        flexGrow: 1,
+                      }}
+                    >
+                      <h6>Faisalabad</h6>
+                      <div
+                        style={{
+                          width: 150,
+                          height: 2,
+                          background: themeColor,
+                        }}
+                      ></div>
+
+                      <div style={{ marginTop: 30 }} />
+                      <p
+                        className="aboutContent"
+                        style={{
+                          color: "black",
+                          fontWeight: "300",
+                          textAlign: "left",
+                          fontSize: 20,
+                        }}
+                      >
+                        2nd Floor, GM PLaza, Kohinoor City,
+                        Faisalabad, Pakistan
+                        <br />
+                        <div
+                          style={{
+                            width: "100%",
+                            height: 1,
+                            background: "gainsboro",
+                            marginTop: 10,
+                            marginBottom: 10,
+                          }}
+                        />
+                        {/* <span>
+                          <i class="fa fa-phone" aria-hidden="true"></i>
+                        </span>{" "}
+                       
+                        <br />{" "} */}
+                      </p>
+                    </div>
+                
                 </div>
               </AccordionDetails>
             </Accordion>

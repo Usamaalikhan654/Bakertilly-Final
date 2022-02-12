@@ -86,7 +86,7 @@ export default class AuditAssurance extends Component {
                     color: "#000",
                     padding: 25,
                     lineHeight: "1.5rem",
-                    fontFamily: "CarnacBold, Arial, Helvetica, sans-serif",
+                    fontFamily: "robotoRegular, Arial, Helvetica, sans-serif",
                   }}
                 >
                   Our reputation for providing quality professional services in

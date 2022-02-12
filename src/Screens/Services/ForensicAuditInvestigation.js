@@ -85,7 +85,7 @@ export default class ForensicAudit extends Component {
                     color: "#000",
                     padding: 25,
                     lineHeight: "1.5rem",
-                    fontFamily: "CarnacBold, Arial, Helvetica, sans-serif",
+                    fontFamily: "robotoRegular, Arial, Helvetica, sans-serif",
                   }}
                 >
                   At Baker Tilly, we recognize the complex and sensitive nature

@@ -213,11 +213,8 @@ export default class Footer extends Component {
                   cursor: "pointer",
                 }}
               >
-                <button
-                  style={{ color: "white", textDecorationLine: "none" , border: "none" , backgroundColor: " black"}}
-                >
                   <a  href={link} target="_blank" style={{ color: "white", textDecoration: "none"}}>Firm Profile</a>
-                </button>
+      
               </p>
               <p
                 onClick={() => this.props.history.push("/privacy")}
