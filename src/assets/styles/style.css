@@ -88,6 +88,10 @@ h5 {
   font-family: robotoExtraBold, Arial, Helvetica, sans-serif;
 }
 
+h6 {
+  font-family: robotoExtraBold, Arial, Helvetica, sans-serif;
+}
+
 .d-block {
   object-fit: cover;
 }
