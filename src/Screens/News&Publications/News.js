@@ -1,7 +1,7 @@
 import { MDBView } from "mdbreact";
 import React, { Component } from "react";
 import MainContainer from "../../containers/MainContainer";
-import Banner from "../../assets/img/img09.jpg";
+import Banner from "../../assets/img/news.jpeg";
 import "../../assets/styles/style.css";
 import { themeColor } from "../../config";
 import { Helmet } from "react-helmet";
