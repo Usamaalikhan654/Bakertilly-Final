@@ -7,9 +7,11 @@ import slide3 from "../assets/img/slide7.jpg";
 import slide4 from "../assets/img/slide9.jpg";
 import slide5 from "../assets/img/slide10.jpg";
 import slide6 from "../assets/img/slide11.jpg";
-import slide7 from "../assets/slides/Ok 330_AERIAL.jpg";
+import slide7 from "../assets/slides/slide7.jpeg";
 import slide8 from "../assets/slides/Ok 394_AERIAL.jpg";
-import slide9 from "../assets/slides/Ok 402_AERIAL.jpg";
+import slide9 from "../assets/slides/slide9.jpeg";
+import slide10 from "../assets/slides/Ok 485_AERIAL.jpg";
+import slide11 from "../assets/slides/slide11.jpeg";
 import banner from "../assets/img/slide6.jpg";
 import icon1 from "../assets/img/icons/AA.jpg";
 import icon2 from "../assets/img/icons/CF.jpg";
@@ -45,7 +47,7 @@ export default class Home extends Component {
             isPlaying={true}
             naturalSlideWidth={window.innerWidth}
             naturalSlideHeight={800}
-            totalSlides={3}
+            totalSlides={5}
             interval={2000}
             playDirection="forward"
           >
@@ -62,7 +64,7 @@ export default class Home extends Component {
                 <img
                   style={{ width: window.innerWidth, height: 800 }}
                   className="d-block w-100"
-                  src={slide8}
+                  src={slide9}
                   alt="First slide"
                 />
               </Slide>
@@ -70,7 +72,23 @@ export default class Home extends Component {
                 <img
                   style={{ width: window.innerWidth, height: 800 }}
                   className="d-block w-100"
-                  src={slide9}
+                  src={slide8}
+                  alt="First slide"
+                />
+              </Slide>
+              <Slide index={3}>
+                <img
+                  style={{ width: window.innerWidth, height: 800 }}
+                  className="d-block w-100"
+                  src={slide10}
+                  alt="First slide"
+                />
+              </Slide>
+              <Slide index={4}>
+                <img
+                  style={{ width: window.innerWidth, height: 800 }}
+                  className="d-block w-100"
+                  src={slide11}
                   alt="First slide"
                 />
               </Slide>
