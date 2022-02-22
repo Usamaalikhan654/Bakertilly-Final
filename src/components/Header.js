@@ -499,7 +499,7 @@ class Header extends Component {
                 >
                   <MDBNavItem>
                     <MDBDropdown>
-                      <MDBDropdownToggle style={{ minWidth: 110 }} nav>
+                      <MDBDropdownToggle style={{ minWidth: 88 }} nav>
                         <span
                           onClick={() => {
                             this.saveToLocalStorage(2);
@@ -610,7 +610,7 @@ class Header extends Component {
                 >
                   <MDBNavItem>
                     <MDBDropdown>
-                      <MDBDropdownToggle style={{ minWidth: 210 }} nav>
+                      <MDBDropdownToggle style={{ minWidth: 180 }} nav>
                         <span
                           onClick={() => {
                             this.saveToLocalStorage(3);
