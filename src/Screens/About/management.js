@@ -24,6 +24,10 @@ import nm from "../../assets/img/partners/nm.jpg";
 import sua from "../../assets/img/directors/sua.jpg";
 import { Modal, Button } from "react-bootstrap";
 import { Helmet } from "react-helmet";
+import Ahsan from "../../assets/img/partners/Ahsan.png"
+import Faisal from "../../assets/img/partners/Faisal.png"
+import Aqeel from "../../assets/img/partners/Aqeel.png"
+import Naveed from "../../assets/img/partners/Naveed.png"
 
 export default class Management extends Component {
   componentDidMount() {
@@ -647,6 +651,123 @@ In between working for accounting firms, Mr. Haroon Khan has also led the financ
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director Assurance Services
+                  </p>
+                </div>
+              </div>
+
+              <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "Ahsan Rasheed",
+                      details: `
+                      Mr. Ahsan Rasheed is heading the Management and Business Advisory Function at the Faisalabad office of Bakertilly Pakistan. He is a Fellow member of the Institute of Chartered Accountants of Pakistan (ICAP) and an Associate member of Institute of Chartered Accounants of England and Wales. His affiliation with ICAP also includes working as member of several working committees of the ICAP. He has an experience of over 12 years of working at senior management positions including the positions of CFO, Director Finance and COO in large manufacturing concerns. Mr. Ahsan has an extensive experience in handling complex financial transactions in the group structures including private acquisitions, dissolution and foreclosures. 
+His experience also includes setting up and successfully running one of Pakistan’s biggest e-commerce store. He has also received trainings and certifications in Advanced Corporate Finance, Forensic and Internal Audits from leading organizations both in Pakistan and outside Pakistan.
+
+                     `,
+                      email: "ahsanrasheed@bakertilly.pk",
+                      image: Ahsan,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={Ahsan} style={{ width: "100%" , height: "75%"}} />
+                <div style={{ marginTop: 10 }}>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Ahsan Rasheed</h6>
+
+                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
+                  FCA (Pak), ACA (UK)
+                  </p>
+                </div>
+              </div>
+
+              <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "FAISAL ALI BUTT",
+                      details: `
+                      Mr. Faisal Ali Butt is heading Audit and Secretarial departments at Faisalabad office of Baker Tilly Pakistan. He is an associate member of Institute of Chartered Accountants of Pakistan and Law Graduate from Univerty of the Punjab. He has diversified experience in fields of audit, taxation and Secretarial assignments of listed and non listed clients in different industry sectors including textile, chemical, construction, Information technology, transportation, real estate, brokerage houses, food and Modarabas.
+During course of his career Mr. Faisal has conducted multiple assignments of system design and implementation including system audit of multiple clients. He has successfully conducted multiple Quality Control Reviews by Institute of Chartered Accountant of Pakistan. Before joining Baker Tilly he has headed one of the oldest and renowned Chartered Accountant firm office as Partner. 
+
+
+                     `,
+                      email: "faisalali@bakertilly.pk",
+                      image: Faisal,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={Faisal} style={{ width: "100%" , height: "75%"}} />
+                <div style={{ marginTop: 10 }}>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>FAISAL ALI BUTT</h6>
+
+                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
+                
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div style={{ marginTop: 50 }} className="row">
+            <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "Aqeel Abbas",
+                      details: `
+                      Mr. Aqeel Abbas is heading the Taxation Department at the Faisalabad Office of Bakertilly. He is a certified Income Tax Practitioner and an advocate High Court. He has over 23 years of experience in planning direct and indirect taxation. He looks after the cases of both individual and corporate sectors at the adjudication levels, and also successfully handled cases at Commissioner Appeal and at Appellate Fora. He is also involved in handling and pursuing cases related to matters which are to be dealt at High Court. He has been actively involved in the BAR activities and was Finance Secretary of the Faisalabad Tax Bar in the year 2019. Before joining Bakertilly, Mr. Aqeel has served as the head of Taxation of one of the oldest CA firms In Pakistan.
+
+
+                     `,
+                      email: "aqeelabbas@bakertilly.pk",
+                      image: Aqeel,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={Aqeel} style={{ width: "100%" , height: "75%"}} />
+                <div style={{ marginTop: 10 }}>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Aqeel Abbas</h6>
+
+                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
+                
+                  </p>
+                </div>
+              </div>
+
+              <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "Naveed Abbass",
+                      details: `
+                      Mr. Naveed Abbass is heading the Indirect Taxation and Financial Advisory Departments in the Faisalabad Office of Baker Tilly Pakistan. He is an Alumni of the University of Punjab, Pakistan. He has more than two decades of experience working at senior management positions including the positions of CFO, Director Finance and COO in large manufacturing and service provider concerns in Pakistan, Europe and USA. 
+While serving in the industry Mr. Naveed Abbass has negotiated with all leading banks of Pakistan for project financing, working capital funding and restructuring of banking facilities. His experience also includes setting up a hospital with private medical college and successfully running the project as executive director finance.  
+Mr. Naveed Abbass has extensive experience in federal and provincial sales tax and federal excise matters encompassing registrations, monthly sales tax returns, refund processing and post refund audits.
+
+
+                     `,
+                      email: "naveedabbass@bakertilly.pk",
+                      image: Naveed,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={Naveed} style={{ width: "100%" , height: "75%"}} />
+                <div style={{ marginTop: 10 }}>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Naveed Abbass</h6>
+
+                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
+                
                   </p>
                 </div>
               </div>

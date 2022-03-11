@@ -523,12 +523,12 @@ export default class Contact extends Component {
                         <span>
                           <i class="fa fa-phone" aria-hidden="true"></i>
                         </span>{" "}
-                        +(93-700) 8569504
+                        0093-783575279
                         <br />{" "}
                         <span>
                           <i class="fa fa-fax" aria-hidden="true"></i>
                         </span>{" "}
-                        +(93-799) 543365
+                        0093-770043057
                       </p>
                     </div>
                   </div>
