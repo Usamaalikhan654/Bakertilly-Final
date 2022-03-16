@@ -19,7 +19,7 @@ import partner12 from "../../assets/img/partners/sa.jpg";
 import partner13 from "../../assets/img/partners/tak.jpg";
 import haroon from "../../assets/img/directors/hk.jpg";
 import mas from "../../assets/img/partners/mas.jpg";
-import sk from "../../assets/img/directors/sk.jpg";
+import sk from "../../assets/img/partners/sk.jpeg";
 import nm from "../../assets/img/partners/nm.jpg";
 import sua from "../../assets/img/directors/sua.jpg";
 import { Modal, Button } from "react-bootstrap";
@@ -569,7 +569,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={sk} style={{ width: "100%" }} />
+                <img src={sk} style={{ width: "100%", height: "75%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Salman Khattak</h6>
 
@@ -688,7 +688,7 @@ His experience also includes setting up and successfully running one of Pakistan
                   this.setState({
                     modal: true,
                     data: {
-                      name: "FAISAL ALI BUTT",
+                      name: "Faisal Ali Butt",
                       details: `
                       Mr. Faisal Ali Butt is heading Audit and Secretarial departments at Faisalabad office of Baker Tilly Pakistan. He is an associate member of Institute of Chartered Accountants of Pakistan and Law Graduate from Univerty of the Punjab. He has diversified experience in fields of audit, taxation and Secretarial assignments of listed and non listed clients in different industry sectors including textile, chemical, construction, Information technology, transportation, real estate, brokerage houses, food and Modarabas.
 During course of his career Mr. Faisal has conducted multiple assignments of system design and implementation including system audit of multiple clients. He has successfully conducted multiple Quality Control Reviews by Institute of Chartered Accountant of Pakistan. Before joining Baker Tilly he has headed one of the oldest and renowned Chartered Accountant firm office as Partner. 
@@ -704,7 +704,7 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
               >
                 <img src={Faisal} style={{ width: "100%" , height: "75%"}} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>FAISAL ALI BUTT</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Faisal Ali Butt</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                 
