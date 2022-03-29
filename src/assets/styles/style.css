@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: carnac;
-  src: url("../fonts/Carnac-Bold.otf");
+  font-family: carnacRegular;
+  src: url("../fonts/Carnac W03 Regular.ttf");
 }
 
 .aboutContent {

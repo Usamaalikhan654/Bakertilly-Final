@@ -2,7 +2,7 @@
   "name": "bakertilly",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://goodsbuyus.com/",
+  "homepage": "https://www.bakertilly.pk/",
   "dependencies": {
     "@devexpress/dx-core": "^3.0.0",
     "@devexpress/dx-react-core": "^3.0.0",

@@ -433,11 +433,14 @@ export default class Contact extends Component {
                             marginBottom: 10,
                           }}
                         />
-                        {/* <span>
+                        <span>
                           <i class="fa fa-phone" aria-hidden="true"></i>
                         </span>{" "}
-                       
-                        <br />{" "} */}
+                        041 8531357 <br />{" "}
+                        <span>
+                          <i class="fa fa-fax" aria-hidden="true"></i>
+                        </span>{" "}
+                        041 8531957
                       </p>
                     </div>
                 

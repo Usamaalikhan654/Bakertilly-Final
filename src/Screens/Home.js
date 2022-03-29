@@ -119,7 +119,7 @@ export default class Home extends Component {
                 regarded for its quality services, ethical and professional
                 standards. The firm is currently headquartered in Karachi,
                 having three offices across Pakistan strategically located at
-                Lahore, Islamabad and Peshawar. We also have an office in Kabul,
+                Lahore , Faisalabad , Islamabad and Peshawar. We also have an office in Kabul,
                 Afghanistan.
                 <br />
                 <br />
