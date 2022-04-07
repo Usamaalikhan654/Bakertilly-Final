@@ -4,24 +4,24 @@ import MainContainer from "../../containers/MainContainer";
 import Banner from "../../assets/about/3.jpg";
 import "../../assets/styles/style.css";
 import { themeColor } from "../../config";
-import aar from "../../assets/img/partners/aar.jpg";
-import partner1 from "../../assets/img/partners/ark.jpg";
-import partner2 from "../../assets/img/partners/at.jpg";
-import partner3 from "../../assets/img/partners/bak.jpg";
-import faisal from "../../assets/img/partners/faisal.jpg";
-import partner5 from "../../assets/img/partners/mab.jpg";
-import partner6 from "../../assets/img/partners/mar.jpg";
-import partner7 from "../../assets/img/partners/mrs.jpg";
-import partner8 from "../../assets/img/partners/mtr.jpg";
-import partner10 from "../../assets/img/partners/qr.jpg";
-import partner11 from "../../assets/img/partners/riu.jpg";
-import partner12 from "../../assets/img/partners/sa.jpg";
-import partner13 from "../../assets/img/partners/tak.jpg";
-import haroon from "../../assets/img/directors/hk.jpg";
-import mas from "../../assets/img/partners/mas.jpg";
-import sk from "../../assets/img/partners/sk.jpeg";
-import nm from "../../assets/img/partners/nm.jpg";
-import sua from "../../assets/img/directors/sua.jpg";
+import aar from "../../assets/img/partners/aar.png";
+import partner1 from "../../assets/img/partners/ark.png";
+import partner2 from "../../assets/img/partners/at.png";
+import partner3 from "../../assets/img/partners/bak.png";
+import faisal from "../../assets/img/partners/faisal-1.png";
+import partner5 from "../../assets/img/partners/mab.png";
+import partner6 from "../../assets/img/partners/mar.png";
+import partner7 from "../../assets/img/partners/mrs.png";
+import partner8 from "../../assets/img/partners/mtr.png";
+import partner10 from "../../assets/img/partners/qr.png";
+import partner11 from "../../assets/img/partners/riu.png";
+import partner12 from "../../assets/img/partners/sa.png";
+import partner13 from "../../assets/img/partners/tak.png";
+import haroon from "../../assets/img/directors/hk.png";
+import mas from "../../assets/img/partners/mas.png";
+import sk from "../../assets/img/partners/sk.png";
+import nm from "../../assets/img/partners/nm.png";
+import sua from "../../assets/img/directors/sua.png";
 import { Modal, Button } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import Ahsan from "../../assets/img/partners/Ahsan.png"
@@ -97,7 +97,7 @@ export default class Management extends Component {
               >
                 <img src={partner6} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Mehmood A. Razzak</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Mehmood A. Razzak</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Managing Partner - Assurance and Business Advisory Services
@@ -130,7 +130,7 @@ He is currently member of News and Views Committee of KTBA.
               >
                 <img src={partner7} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Mohammed Rehan Siddiqui </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Mohammed Rehan Siddiqui </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Tax Advisory Services
@@ -165,7 +165,7 @@ He is currently member of News and Views Committee of KTBA.
               >
                 <img src={partner2} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Aqeel Tabani </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Aqeel Tabani </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner - Assurance and Business Advisory Services
@@ -197,7 +197,7 @@ He is currently member of News and Views Committee of KTBA.
               >
                 <img src={partner10} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Qamar Rashid </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Qamar Rashid </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner - Tax Advisory Services
@@ -228,9 +228,9 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner13} style={{ width: "100%" }} />
+                <img src={partner13} style={{ width: "100%",height: "72%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Tariq Ahmad Khan </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Tariq Ahmad Khan </h6>
 
                   <p
                     // className="aboutContent"
@@ -266,7 +266,7 @@ He also possesses valuable reputation for his expertise in the public sector wor
               >
                 <img src={partner1} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Abdur Rub Khan </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Abdur Rub Khan </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Assurance and Business Advisory Services
@@ -298,7 +298,7 @@ He also possesses valuable reputation for his expertise in the public sector wor
               >
                 <img src={partner12} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Siraj Ahmad</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Siraj Ahmad</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner - Assurance and Business Advisory Services
@@ -329,7 +329,7 @@ He is also engaged in educational, training and capacity development activities 
               >
                 <img src={partner3} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muhammad Bilal Ahmed</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Bilal Ahmed</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner - Assurance and Business Advisory Services
@@ -367,7 +367,7 @@ He is also engaged in educational, training and capacity development activities 
               >
                 <img src={partner5} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muhammad Abu Bakar</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Abu Bakar</h6>
 
                   <p
                     // className="aboutContent"
@@ -398,7 +398,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={partner8} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muhammad Tariq Rafique</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Tariq Rafique</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Business Advisory Services
@@ -426,7 +426,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={partner11} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Rizwan Iqbal Umer</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Rizwan Iqbal Umer</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Tax Advisory Services
@@ -450,7 +450,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={faisal} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muhammad Faisal Yaqub</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Faisal Yaqub</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Partner – Tax Advisory Services
@@ -478,9 +478,9 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={aar} style={{ width: "100%" }} />
+                <img src={aar} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Ali A. Rahim </h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Ali A. Rahim </h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director – Tax Advisory Services.
@@ -511,7 +511,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={nm} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Naeem Mehmood</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Naeem Mehmood</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director – Corporate and Business Advisory
@@ -542,7 +542,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={mas} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Muneeb Ahmed Siddiqui</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muneeb Ahmed Siddiqui</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director – Assurance and Business Advisory Services.
@@ -569,9 +569,9 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={sk} style={{ width: "100%", height: "75%" }} />
+                <img src={sk} style={{ width: "100%", height: "66%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Salman Khattak</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Salman Khattak</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director - Audit and Assurance
@@ -616,7 +616,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={sua} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Sayyed Ul Abrar</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Sayyed Ul Abrar</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                     Director – Business Advisory Services
@@ -647,9 +647,9 @@ In between working for accounting firms, Mr. Haroon Khan has also led the financ
               >
                 <img src={haroon} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Haroon Khan</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Haroon Khan</h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
+                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15,textAlign: "center" }}>
                     Director Assurance Services
                   </p>
                 </div>
@@ -673,11 +673,11 @@ His experience also includes setting up and successfully running one of Pakistan
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Ahsan} style={{ width: "100%" , height: "75%"}} />
+                <img src={Ahsan} style={{ width: "100%" , height: "70%"}} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Ahsan Rasheed</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Ahsan Rasheed</h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
+                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15,textAlign: "center" }}>
                   FCA (Pak), ACA (UK)
                   </p>
                 </div>
@@ -702,9 +702,9 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Faisal} style={{ width: "100%" , height: "75%"}} />
+                <img src={Faisal} style={{ width: "100%" , height: "70%"}} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Faisal Ali Butt</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Faisal Ali Butt</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                 
@@ -734,7 +734,7 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
               >
                 <img src={Aqeel} style={{ width: "100%" , height: "75%"}} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Aqeel Abbas</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center"}}>Aqeel Abbas</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                 
@@ -764,7 +764,7 @@ Mr. Naveed Abbass has extensive experience in federal and provincial sales tax a
               >
                 <img src={Naveed} style={{ width: "100%" , height: "75%"}} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular" }}>Naveed Abbass</h6>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Naveed Abbass</h6>
 
                   <p style={{ color: "gray", fontWeight: "300", fontSize: 15 }}>
                 
