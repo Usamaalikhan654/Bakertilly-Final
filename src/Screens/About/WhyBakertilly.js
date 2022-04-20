@@ -48,8 +48,8 @@ export default class WhyBakertilly extends Component {
               className="aboutContent"
               style={{ color: "gray", fontWeight: "300" }}
             >
-              As a US$3.9bn global organisation with member firms in more than
-              146 territories, we have the scale to meet your changing needs,
+              As a US$4.3bn global organisation with member firms in more than
+              148 territories, we have the scale to meet your changing needs,
               but the agility that helps you stay one step ahead. When you
               choose to work with a Baker Tilly member firm, you choose a firm
               that believes in the power of great relationships, great

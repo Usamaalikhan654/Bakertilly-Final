@@ -624,7 +624,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 </div>
               </div>
 
-              <div
+              {/* <div
                 onClick={() => {
                   this.setState({
                     modal: true,
@@ -653,7 +653,7 @@ In between working for accounting firms, Mr. Haroon Khan has also led the financ
                     Director Assurance Services
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div
                 onClick={() => {
@@ -711,10 +711,7 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
                   </p>
                 </div>
               </div>
-            </div>
-
-            <div style={{ marginTop: 50 }} className="row">
-            <div
+              <div
                 onClick={() => {
                   this.setState({
                     modal: true,
@@ -732,7 +729,7 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Aqeel} style={{ width: "100%" , height: "75%"}} />
+                <img src={Aqeel} style={{ width: "100%" , height: "69%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center"}}>Aqeel Abbas</h6>
 
@@ -741,6 +738,10 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div style={{ marginTop: 50 }} className="row">
+            
 
               <div
                 onClick={() => {

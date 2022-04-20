@@ -65,6 +65,7 @@ class Header extends Component {
     localStorage.setItem("menu", this.state.activeMenu);
   }
 
+
   state = {
     menuColor: "#9D9D9D",
     searchOptions: [],
@@ -246,13 +247,11 @@ class Header extends Component {
           }}
           color="indigo"
           expand="lg"
-          fixed="top"
         >
           <div
             style={
               window.innerWidth > 1000
                 ? {
-                    width: "80%",
                     display: "flex",
                   }
                 : {
@@ -639,16 +638,13 @@ class Header extends Component {
                           }}
                           className={"menuBox"}
                         >
-                          <Dropdown.Item
-                            onClick={() => {
-                              this.saveToLocalStorage(3);
-                              this.props.history.push("/news");
-                            }}
-                            className="navItemStyle"
-                            style={{ color: this.state.menuColor }}
+                        
+                          <MDBDropdownItem
+                            className="navItemStyle"                
                           >
-                            news
-                          </Dropdown.Item>
+                           <a style={{ color: "#9D9D9D",textDecoration: "none" }} href="https://news.bakertilly.global/" >news</a>
+                          </MDBDropdownItem>
+                          
                           <Dropdown.Item
                             onClick={() => {
                               this.saveToLocalStorage(3);

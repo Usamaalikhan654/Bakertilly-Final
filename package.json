@@ -36,6 +36,7 @@
     "react-helmet": "^6.1.0",
     "react-iframe": "^1.8.0",
     "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
     "react-scripts": "4.0.1",
     "react-searchable-dropdown": "^1.2.5",
     "react-select-search": "^2.2.4",

@@ -97,7 +97,9 @@ h6 {
 }
 
 .logo {
-  width: 15%;
+  width: 21%;
+  height: 70px;
+  margin-left: -7%;
 }
 
 .footerMenus {

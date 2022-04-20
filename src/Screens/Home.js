@@ -47,7 +47,7 @@ export default class Home extends Component {
             isPlaying={true}
             naturalSlideWidth={window.innerWidth}
             naturalSlideHeight={800}
-            totalSlides={5}
+            totalSlides={2}
             interval={2000}
             playDirection="forward"
           >
@@ -65,30 +65,6 @@ export default class Home extends Component {
                   style={{ width: window.innerWidth, height: 800 }}
                   className="d-block w-100"
                   src={slide9}
-                  alt="First slide"
-                />
-              </Slide>
-              <Slide index={2}>
-                <img
-                  style={{ width: window.innerWidth, height: 800 }}
-                  className="d-block w-100"
-                  src={slide8}
-                  alt="First slide"
-                />
-              </Slide>
-              <Slide index={3}>
-                <img
-                  style={{ width: window.innerWidth, height: 800 }}
-                  className="d-block w-100"
-                  src={slide10}
-                  alt="First slide"
-                />
-              </Slide>
-              <Slide index={4}>
-                <img
-                  style={{ width: window.innerWidth, height: 800 }}
-                  className="d-block w-100"
-                  src={slide11}
                   alt="First slide"
                 />
               </Slide>
