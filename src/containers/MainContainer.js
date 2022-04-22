@@ -21,6 +21,10 @@ class MainContainer extends Component {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            position: "sticky",
+            top:" 0px",
+            zIndex: "1",
+           backgroundColor: "white"
           }}
         >
           <div className="headerContainer">

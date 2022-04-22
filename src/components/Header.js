@@ -244,6 +244,7 @@ class Header extends Component {
             flexDirection: "column",
             height: this.state.search ? 230 : 130,
             fontFamily: "carnacRegular",
+            
           }}
           color="indigo"
           expand="lg"

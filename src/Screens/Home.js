@@ -62,7 +62,7 @@ export default class Home extends Component {
               </Slide>
               <Slide index={1}>
                 <img
-                  style={{ width: window.innerWidth, height: 800 }}
+                  style={{ width: window.innerWidth}}
                   className="d-block w-100"
                   src={slide9}
                   alt="First slide"
