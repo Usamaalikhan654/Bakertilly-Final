@@ -314,6 +314,7 @@ class Header extends Component {
             <MDBCollapse
               style={{
                 justifyContent: "center",
+                paddingTop: "12px"
               }}
               id="navbarCollapse3"
               isOpen={this.state.isOpen}
