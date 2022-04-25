@@ -8,7 +8,7 @@ import aar from "../../assets/img/partners/aar.png";
 import partner1 from "../../assets/img/partners/ark.png";
 import partner2 from "../../assets/img/partners/at.png";
 import partner3 from "../../assets/img/partners/bak.png";
-import faisal from "../../assets/img/partners/faisal-1.png";
+import faisalyaqub from "../../assets/img/partners/faisal-3.png";
 import partner5 from "../../assets/img/partners/mab.png";
 import partner6 from "../../assets/img/partners/mar.png";
 import partner7 from "../../assets/img/partners/mrs.png";
@@ -24,7 +24,7 @@ import sua from "../../assets/img/directors/sua.png";
 import { Modal, Button } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import Ahsan from "../../assets/img/partners/Ahsan.png"
-import Faisal from "../../assets/img/partners/Faisal.png"
+import Faisal1 from "../../assets/img/partners/Faisal.png"
 import Aqeel from "../../assets/img/partners/Aqeel.png"
 import Naveed from "../../assets/img/partners/Naveed.png"
 
@@ -441,13 +441,13 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                       name: "Muhammad Faisal Yaqub",
                       details: `Mr. Muhammad Faisal Yaqub is Partner at the Islamabad Office of Baker Tilly Mehmood Idrees Qamar and leads its Taxation Advisory Services. He is an associate member of the Institute of Chartered Accountants of Pakistan and the Pakistan Institute of Public Finance Accountants. He has over 10 years’ experience in various aspects of the profession as well as in-depth knowledge of the industries that he has worked for. Before joining Baker Tilly, he has served as Head of Taxation of renowned corporate groups in Pakistan.`,
                       email: "faisalyaqub@bakertilly.pk",
-                      image: faisal,
+                      image: faisalyaqub,
                     },
                   });
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={faisal} style={{ width: "100%"}} />
+                <img src={faisalyaqub} style={{ width: "100%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Faisal Yaqub</h6>
 
@@ -695,13 +695,13 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
 
                      `,
                       email: "faisalali@bakertilly.pk",
-                      image: Faisal,
+                      image: Faisal1,
                     },
                   });
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Faisal} style={{ width: "100%" , height: "70%"}} />
+                <img src={Faisal1} style={{ width: "100%" , height: "70%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Faisal Ali Butt</h6>
 
