@@ -448,7 +448,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={faisal} style={{ width: "100%",border: "1px solid",borderRadius: "160px" }} />
+                <img src={faisal} style={{ width: "100%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Faisal Yaqub</h6>
 
@@ -763,7 +763,7 @@ Mr. Naveed Abbass has extensive experience in federal and provincial sales tax a
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Naveed} style={{ width: "100%" , height: "75%"}} />
+                <img src={Naveed} style={{ width: "100%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Naveed Abbass</h6>
 
