@@ -17,7 +17,6 @@ import partner10 from "../../assets/img/partners/qr.png";
 import partner11 from "../../assets/img/partners/riu.png";
 import partner12 from "../../assets/img/partners/sa.png";
 import partner13 from "../../assets/img/partners/tak.png";
-import haroon from "../../assets/img/directors/hk.png";
 import mas from "../../assets/img/partners/mas.png";
 import sk from "../../assets/img/partners/sk.png";
 import nm from "../../assets/img/partners/nm.png";
