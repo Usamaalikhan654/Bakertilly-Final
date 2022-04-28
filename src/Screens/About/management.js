@@ -94,7 +94,7 @@ export default class Management extends Component {
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner6} style={{ width: "100%" }} />
+                <img src={partner6} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Mehmood A. Razzak</h6>
 
@@ -127,7 +127,7 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner7} style={{ width: "100%" }} />
+                <img src={partner7} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Mohammed Rehan Siddiqui </h6>
 
@@ -162,7 +162,7 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner2} style={{ width: "100%" }} />
+                <img src={partner2} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Aqeel Tabani </h6>
 
@@ -194,7 +194,7 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner10} style={{ width: "100%" }} />
+                <img src={partner10} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Qamar Rashid </h6>
 
@@ -227,7 +227,7 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner13} style={{ width: "100%",height: "69%" }} />
+                <img src={partner13} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Tariq Ahmad Khan </h6>
 
@@ -263,7 +263,7 @@ He also possesses valuable reputation for his expertise in the public sector wor
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner1} style={{ width: "100%" }} />
+                <img src={partner1} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Abdur Rub Khan </h6>
 
@@ -295,7 +295,7 @@ He also possesses valuable reputation for his expertise in the public sector wor
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner12} style={{ width: "100%" }} />
+                <img src={partner12} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Siraj Ahmad</h6>
 
@@ -326,7 +326,7 @@ He is also engaged in educational, training and capacity development activities 
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner3} style={{ width: "100%" }} />
+                <img src={partner3} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Bilal Ahmed</h6>
 
@@ -364,7 +364,7 @@ He is also engaged in educational, training and capacity development activities 
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner5} style={{ width: "100%" }} />
+                <img src={partner5} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Abu Bakar</h6>
 
@@ -395,7 +395,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner8} style={{ width: "100%" }} />
+                <img src={partner8} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Tariq Rafique</h6>
 
@@ -423,7 +423,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner11} style={{ width: "100%" }} />
+                <img src={partner11} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Rizwan Iqbal Umer</h6>
 
@@ -447,7 +447,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={faisalyaqub} style={{ width: "100%"}} />
+                <img src={faisalyaqub} style={{ width: "100%",height: "68%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Faisal Yaqub</h6>
 
@@ -508,7 +508,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={nm} style={{ width: "100%" }} />
+                <img src={nm} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Naeem Mehmood</h6>
 
@@ -539,7 +539,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={mas} style={{ width: "100%" }} />
+                <img src={mas} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muneeb Ahmed Siddiqui</h6>
 
@@ -568,7 +568,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={sk} style={{ width: "100%", height: "67%" }} />
+                <img src={sk} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Salman Khattak</h6>
 
@@ -613,7 +613,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={sua} style={{ width: "100%" }} />
+                <img src={sua} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Sayyed Ul Abrar</h6>
 
@@ -672,7 +672,7 @@ His experience also includes setting up and successfully running one of Pakistan
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Ahsan} style={{ width: "100%" , height: "70%"}} />
+                <img src={Ahsan} style={{ width: "100%" , height: "68%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Ahsan Rasheed</h6>
 
@@ -701,7 +701,7 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Faisal1} style={{ width: "100%" , height: "70%"}} />
+                <img src={Faisal1} style={{ width: "100%" , height: "68%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Faisal Ali Butt</h6>
 
@@ -728,7 +728,7 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Aqeel} style={{ width: "100%" , height: "69%"}} />
+                <img src={Aqeel} style={{ width: "100%" , height: "68%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center"}}>Aqeel Abbas</h6>
 
@@ -762,7 +762,7 @@ Mr. Naveed Abbass has extensive experience in federal and provincial sales tax a
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Naveed} style={{ width: "100%" }} />
+                <img src={Naveed} style={{ width: "100%",height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Naveed Abbass</h6>
 
