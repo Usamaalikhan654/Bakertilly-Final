@@ -227,7 +227,7 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner13} style={{ width: "100%",height: "72%" }} />
+                <img src={partner13} style={{ width: "100%",height: "69%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Tariq Ahmad Khan </h6>
 
@@ -568,7 +568,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={sk} style={{ width: "100%", height: "66%" }} />
+                <img src={sk} style={{ width: "100%", height: "67%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Salman Khattak</h6>
 
