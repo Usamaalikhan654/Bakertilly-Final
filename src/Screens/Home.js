@@ -94,13 +94,13 @@ export default class Home extends Component {
                 and other advisory services. Formed in 2001, the firm is
                 regarded for its quality services, ethical and professional
                 standards. The firm is currently headquartered in Karachi,
-                having three offices across Pakistan strategically located at
+                having five offices across Pakistan strategically located at
                 Lahore , Faisalabad , Islamabad and Peshawar. We also have an office in Kabul,
                 Afghanistan.
                 <br />
                 <br />
                 Baker Tilly Mehmood Idrees Qamar is an independent member firm
-                of Baker Tilly International, the world’s eighth largest
+                of Baker Tilly International, the world’s ninth largest
                 accountancy and business advisory network of outstanding firms.
                 Dealing with Baker Tilly means dealing with the whole world at
                 one place, for seamless services are provided through worldwide

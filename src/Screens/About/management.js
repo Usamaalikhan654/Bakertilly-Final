@@ -364,7 +364,7 @@ He is also engaged in educational, training and capacity development activities 
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner5} style={{ width: "100%",height: "68%" }} />
+                <img src={partner5} style={{ width: "100%",height: "64%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Abu Bakar</h6>
 
@@ -395,7 +395,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner8} style={{ width: "100%",height: "68%" }} />
+                <img src={partner8} style={{ width: "100%",height: "64%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Tariq Rafique</h6>
 
@@ -423,7 +423,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner11} style={{ width: "100%",height: "68%" }} />
+                <img src={partner11} style={{ width: "100%",height: "64%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Rizwan Iqbal Umer</h6>
 
@@ -447,7 +447,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={faisalyaqub} style={{ width: "100%",height: "68%"}} />
+                <img src={faisalyaqub} style={{ width: "100%",height: "64%"}} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Faisal Yaqub</h6>
 
@@ -762,7 +762,7 @@ Mr. Naveed Abbass has extensive experience in federal and provincial sales tax a
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Naveed} style={{ width: "100%",height: "68%" }} />
+                <img src={Naveed} style={{ width: "100%",height: "82%" }} />
                 <div style={{ marginTop: 10 }}>
                   <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Naveed Abbass</h6>
 
