@@ -22,9 +22,9 @@ class MainContainer extends Component {
             alignItems: "center",
             justifyContent: "center",
             position: "sticky",
-            top:" 0px",
+            top: " 0px",
             zIndex: "1",
-           backgroundColor: "white"
+            backgroundColor: "white",
           }}
         >
           <div className="headerContainer">

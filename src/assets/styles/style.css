@@ -179,6 +179,13 @@ p {
     height: 300px; */
     margin-top: 50px;
   }
+  .firstslide {
+    height: 216px !important;
+  }
+
+  .secondslide {
+    height: auto !important;
+  }
 }
 
 .serviceBox {

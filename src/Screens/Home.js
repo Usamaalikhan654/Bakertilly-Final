@@ -9,7 +9,7 @@ import slide5 from "../assets/img/slide10.jpg";
 import slide6 from "../assets/img/slide11.jpg";
 import slide7 from "../assets/slides/slide-1.jpeg";
 import slide8 from "../assets/slides/Ok 394_AERIAL.jpg";
-import slide9 from "../assets/slides/slide-2.jpeg";
+import slide9 from "../assets/slides/Main Slide2.jpg";
 import slide10 from "../assets/slides/Ok 485_AERIAL.jpg";
 import slide11 from "../assets/slides/slide11.jpeg";
 import banner from "../assets/img/slide6.jpg";
@@ -55,15 +55,15 @@ export default class Home extends Component {
               <Slide index={0}>
                 <img
                   style={{ width: window.innerWidth, height: 800 }}
-                  className="d-block w-100"
+                  className="d-block w-100 firstslide"
                   src={slide7}
                   alt="First slide"
                 />
               </Slide>
               <Slide index={1}>
                 <img
-                  style={{ width: window.innerWidth}}
-                  className="d-block w-100"
+                  style={{ width: window.innerWidth, height: 800}}
+                  className="d-block w-100 secondslide"
                   src={slide9}
                   alt="First slide"
                 />
