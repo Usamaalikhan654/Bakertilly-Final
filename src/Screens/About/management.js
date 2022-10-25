@@ -23,10 +23,10 @@ import nm from "../../assets/img/partners/nm.png";
 import sua from "../../assets/img/directors/sua.png";
 import { Modal, Button } from "react-bootstrap";
 import { Helmet } from "react-helmet";
-import Ahsan from "../../assets/img/partners/Ahsan.png"
-import Faisal1 from "../../assets/img/partners/Faisal.png"
-import Aqeel from "../../assets/img/partners/Aqeel.png"
-import Naveed from "../../assets/img/partners/Naveed.png"
+import Ahsan from "../../assets/img/partners/Ahsan.png";
+import Faisal1 from "../../assets/img/partners/Faisal.png";
+import Aqeel from "../../assets/img/partners/Aqeel.png";
+import Naveed from "../../assets/img/partners/Naveed.png";
 
 export default class Management extends Component {
   componentDidMount() {
@@ -94,11 +94,26 @@ export default class Management extends Component {
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner6} style={{ width: "100%",height: "68%" }} />
+                <img src={partner6} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 17, fontFamily: "robotoRegular",textAlign: "center" }}>Mehmood A. Razzak</h6>
+                  <h6
+                    style={{
+                      fontSize: 17,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Mehmood A. Razzak
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Managing Partner - Assurance and Business Advisory Services
                   </p>
                 </div>
@@ -127,11 +142,26 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner7} style={{ width: "100%",height: "68%" }} />
+                <img src={partner7} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 17, fontFamily: "robotoRegular",textAlign: "center" }}>Mohammed Rehan Siddiqui </h6>
+                  <h6
+                    style={{
+                      fontSize: 17,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Mohammed Rehan Siddiqui{" "}
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner – Tax Advisory Services
                   </p>
                 </div>
@@ -162,11 +192,26 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner2} style={{ width: "100%",height: "68%" }} />
+                <img src={partner2} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 17, fontFamily: "robotoRegular",textAlign: "center" }}>Aqeel Tabani </h6>
+                  <h6
+                    style={{
+                      fontSize: 17,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Aqeel Tabani{" "}
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner - Assurance and Business Advisory Services
                   </p>
                 </div>
@@ -194,11 +239,26 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner10} style={{ width: "100%",height: "68%" }} />
+                <img src={partner10} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 17, fontFamily: "robotoRegular",textAlign: "center" }}>Qamar Rashid </h6>
+                  <h6
+                    style={{
+                      fontSize: 17,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Qamar Rashid{" "}
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner - Tax Advisory Services
                   </p>
                 </div>
@@ -227,13 +287,26 @@ He is currently member of News and Views Committee of KTBA.
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner13} style={{ width: "100%",height: "68%" }} />
+                <img src={partner13} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Tariq Ahmad Khan </h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Tariq Ahmad Khan{" "}
+                  </h6>
 
                   <p
                     // className="aboutContent"
-                    style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
                   >
                     Partner - Assurance and Business Advisory Services
                   </p>
@@ -263,11 +336,26 @@ He also possesses valuable reputation for his expertise in the public sector wor
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner1} style={{ width: "100%",height: "68%" }} />
+                <img src={partner1} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Abdur Rub Khan </h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Abdur Rub Khan{" "}
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner – Assurance and Business Advisory Services
                   </p>
                 </div>
@@ -295,11 +383,26 @@ He also possesses valuable reputation for his expertise in the public sector wor
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner12} style={{ width: "100%",height: "68%" }} />
+                <img src={partner12} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Siraj Ahmad</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Siraj Ahmad
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner - Assurance and Business Advisory Services
                   </p>
                 </div>
@@ -326,11 +429,26 @@ He is also engaged in educational, training and capacity development activities 
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner3} style={{ width: "100%",height: "68%" }} />
+                <img src={partner3} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Bilal Ahmed</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Muhammad Bilal Ahmed
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner - Assurance and Business Advisory Services
                   </p>
                 </div>
@@ -364,13 +482,26 @@ He is also engaged in educational, training and capacity development activities 
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner5} style={{ width: "100%",height: "64%" }} />
+                <img src={partner5} style={{ width: "100%", height: "64%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Abu Bakar</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Muhammad Abu Bakar
+                  </h6>
 
                   <p
                     // className="aboutContent"
-                    style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
                   >
                     Partner – Business Advisory Services and Enterprise Resource
                     Planning
@@ -395,11 +526,26 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner8} style={{ width: "100%",height: "64%" }} />
+                <img src={partner8} style={{ width: "100%", height: "64%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Tariq Rafique</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Muhammad Tariq Rafique
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner – Business Advisory Services
                   </p>
                 </div>
@@ -423,11 +569,26 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={partner11} style={{ width: "100%",height: "64%" }} />
+                <img src={partner11} style={{ width: "100%", height: "64%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Rizwan Iqbal Umer</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Rizwan Iqbal Umer
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner – Tax Advisory Services
                   </p>
                 </div>
@@ -447,11 +608,29 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={faisalyaqub} style={{ width: "100%",height: "64%"}} />
+                <img
+                  src={faisalyaqub}
+                  style={{ width: "100%", height: "64%" }}
+                />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muhammad Faisal Yaqub</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Muhammad Faisal Yaqub
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Partner – Tax Advisory Services
                   </p>
                 </div>
@@ -477,11 +656,26 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={aar} style={{ width: "100%",height: "68%" }} />
+                <img src={aar} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Ali A. Rahim </h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Ali A. Rahim{" "}
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Director – Tax Advisory Services.
                   </p>
                   <p
@@ -508,11 +702,26 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={nm} style={{ width: "100%",height: "68%" }} />
+                <img src={nm} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Naeem Mehmood</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Naeem Mehmood
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Director – Corporate and Business Advisory
                   </p>
                 </div>
@@ -539,11 +748,26 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={mas} style={{ width: "100%",height: "68%" }} />
+                <img src={mas} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Muneeb Ahmed Siddiqui</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Muneeb Ahmed Siddiqui
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Director – Assurance and Business Advisory Services.
                   </p>
                 </div>
@@ -570,9 +794,24 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
               >
                 <img src={sk} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Salman Khattak</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Salman Khattak
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
                     Director - Audit and Assurance
                   </p>
                 </div>
@@ -580,80 +819,6 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
             </div>
 
             <div style={{ marginTop: 50 }} className="row">
-              <div
-                onClick={() => {
-                  this.setState({
-                    modal: true,
-                    data: {
-                      name: "Sayyed ul Abrar",
-                      details: `
-                      Mr. Sayyed-ul-Abrar is the Director and heads the business advisory services at Baker Tilly Mehmood Idrees Qamar Afghanistan Office. He is working with Baker Tilly Kabul office advisory department since its incorporation in Afghanistan and has supervised, monitored and evaluated projects in Kabul, Ghazni, Bamyan, Ghore, Kunner, Maidan wardak, Laghman, Logar, Parwan, Kapisa, Kandahar, Jalalabad, Balkh and Herat provices funded by World Bank, USAID and other national and international organization. He is also one of the active training consultant on the panel of World Bank/IFC/BE and has expertise in training, instruction design, training assessment.
-                      
-                      He has 20 years’ experience in corporate and development sector specifically focusing on institutional assessment, evaluation, external audit, internal audit, training designing, financial management, accounting, project implementation, governance, program management and strategies & policies development.
-                      
-                      He has implemented both long and short-term projects funded by World Bank, UN agencies, USAID, EU, Danish Embassy, GIZ, Dutch Relief Alliance, INL, Global Rights, DFID etc.
-                      
-                      During his last 20 years advisory and auditing experience, he has
-                      
-                      Completed 5 Long term projects (1year -3year) funded by international agencies including world bank and USAID.
-                      Completed more than 300 short term training and capacity building assignment/project in Pakistan and Afghanistan.
-                      Completed more than 60 monitoring, assessment and evaluation assignments in Pakistan and Afghanistan.
-                      Completed more than 100 Business plan and feasibility study assignment for corporate sector of Pakistan and Afghanistan
-                      Completed more than 1000 proposal writing, research writing and technical writing assignments.
-                      Completed more than 80 policies and strategies development assignment including M&E, strategic plan, anti-corruption, anti-harassment, finance and program management policies.
-                      Trained 500 trainees during university lectureship in universities.
-                      Trained 2000 trainees during the training workshops and seminars.
-                      300 Financial system assessment and financial system development assignments.
-                      Conducted and supervised more than 50 external audit and internal audit, compliance audit & assurance and performance audit assignment in Afghanistan and Pakistan.
-                  `,
-                      email: "sayyedulabrar@bakertilly.pk",
-                      image: sua,
-                    },
-                  });
-                }}
-                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
-              >
-                <img src={sua} style={{ width: "100%",height: "68%" }} />
-                <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Sayyed Ul Abrar</h6>
-
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
-                    Director – Business Advisory Services
-                  </p>
-                </div>
-              </div>
-
-              {/* <div
-                onClick={() => {
-                  this.setState({
-                    modal: true,
-                    data: {
-                      name: "Haroon Khan",
-                      details: `
-                      Mr. Haroon Khan is a Director at the Islamabad Office of Baker Tilly Mehmood Idrees Qamar and leads its Audit and Assurance Services. He is a member of the Association of Chartered Certified Accountants. He is also a finalist of the Institute of Chartered Accountants of England and Wales, and has over 10 years of experience in variegated capacities both within and outside of the profession.  
-Mr. Haroon Khan completed his articleship from a reputed accounting firm in Islamabad, subsequent to which he was engaged as Manager, Audit and Advisory in Baker Tilly, Islamabad. During his tenure, Mr. Khan was actively involved in a wide range of assignments that ranged across a myriad of sectors. 
-
-During the course of his career with Baker Tilly, he has performed audits, other assurance services and agreed upon procedures in the sectors including Government Entities, Retail Companies, Pharmaceuticals, Manufacturing, Education, Health, Distribution, Brokerage Houses, Non-Banking Financial Companies, NGOs / NPOs, etc.  
-
-In between working for accounting firms, Mr. Haroon Khan has also led the finance and financial reporting divisions of retail and pharmaceutical organisations, which has contributed to his vast practical knowledge of financial reporting standards.
-                     `,
-                      email: "haroonkhan@bakertilly.pk",
-                      image: haroon,
-                    },
-                  });
-                }}
-                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
-              >
-                <img src={haroon} style={{ width: "100%" }} />
-                <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Haroon Khan</h6>
-
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15,textAlign: "center" }}>
-                    Director Assurance Services
-                  </p>
-                </div>
-              </div> */}
-
               <div
                 onClick={() => {
                   this.setState({
@@ -672,12 +837,27 @@ His experience also includes setting up and successfully running one of Pakistan
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Ahsan} style={{ width: "100%" , height: "68%"}} />
+                <img src={Ahsan} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Ahsan Rasheed</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Ahsan Rasheed
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15,textAlign: "center" }}>
-                  Director - Business Advisory Services
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Director - Business Advisory Services
                   </p>
                 </div>
               </div>
@@ -701,16 +881,79 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Faisal1} style={{ width: "100%" , height: "68%"}} />
+                <img src={Faisal1} style={{ width: "100%", height: "68%" }} />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Faisal Ali Butt</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Faisal Ali Butt
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
-                  Director - Audit and Assurance
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Director - Audit and Assurance
                   </p>
                 </div>
               </div>
+
               <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "Naveed Abbass",
+                      details: `
+                      Mr. Naveed Abbass is heading the Indirect Taxation and Financial Advisory Departments in the Faisalabad Office of Baker Tilly Pakistan. He is an Alumni of the University of Punjab, Pakistan. He has more than two decades of experience working at senior management positions including the positions of CFO, Director Finance and COO in large manufacturing and service provider concerns in Pakistan, Europe and USA. 
+While serving in the industry Mr. Naveed Abbass has negotiated with all leading banks of Pakistan for project financing, working capital funding and restructuring of banking facilities. His experience also includes setting up a hospital with private medical college and successfully running the project as executive director finance.  
+Mr. Naveed Abbass has extensive experience in federal and provincial sales tax and federal excise matters encompassing registrations, monthly sales tax returns, refund processing and post refund audits.
+
+
+                     `,
+                      email: "naveedabbass@bakertilly.pk",
+                      image: Naveed,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img
+                  src={Naveed}
+                  style={{ width: "95%", height: "68%", marginLeft: "10px" }}
+                />
+                <div style={{ marginTop: 10 }}>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Naveed Abbass
+                  </h6>
+
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Director - Tax Advisory Services
+                  </p>
+                </div>
+              </div>
+              {/* <div
                 onClick={() => {
                   this.setState({
                     modal: true,
@@ -736,12 +979,10 @@ During course of his career Mr. Faisal has conducted multiple assignments of sys
                   Director - Tax Advisory Services
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
-            <div style={{ marginTop: 50 }} className="row">
-            
-
+            {/* <div style={{ marginTop: 50 }} className="row">
               <div
                 onClick={() => {
                   this.setState({
@@ -762,16 +1003,34 @@ Mr. Naveed Abbass has extensive experience in federal and provincial sales tax a
                 }}
                 className="col-lg-3 col-md-3 col-sm-2 imageContainer"
               >
-                <img src={Naveed} style={{ width: "95%",height: "77%", marginLeft: "10px" }} />
+                <img
+                  src={Naveed}
+                  style={{ width: "95%", height: "77%", marginLeft: "10px" }}
+                />
                 <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center" }}>Naveed Abbass</h6>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Naveed Abbass
+                  </h6>
 
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
-                  Director - Tax Advisory Services
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Director - Tax Advisory Services
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
