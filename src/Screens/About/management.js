@@ -27,6 +27,7 @@ import Ahsan from "../../assets/img/partners/Ahsan.png";
 import Faisal1 from "../../assets/img/partners/Faisal.png";
 import Aqeel from "../../assets/img/partners/Aqeel.png";
 import Naveed from "../../assets/img/partners/Naveed.png";
+import najam from "../../assets/img/partners/mn-fotor-bg-remover-20230704234138.png";
 
 export default class Management extends Component {
   componentDidMount() {
@@ -123,6 +124,99 @@ export default class Management extends Component {
                   this.setState({
                     modal: true,
                     data: {
+                      name: "Qamar Rashid",
+                      details: `
+                        Mr. Qamar Rashid is a Fellow Member of the Institute of Chartered Accountants of Pakistan and a partner at Baker Tilly Mehmood Idrees Qamar.
+                        
+                        He has diversified experience of performing leading roles in the practice areas of audit and assurances, business advisory and tax consultancy.
+                        
+                        He has a long and successful career of practicing as partner in reputable firms of Pakistan.
+                        
+                        He is also a visiting professor of Company Law, Accounting and Auditing at both Foundation and Professional Levels of Chartered Accountancy and ACCA UK in SKANS School of Accountancy.`,
+
+                      email: "qamarrashid@bakertilly.pk",
+                      image: partner10,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={partner10} style={{ width: "100%", height: "68%" }} />
+                <div style={{ marginTop: 10 }}>
+                  <h6
+                    style={{
+                      fontSize: 17,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Qamar Rashid{" "}
+                  </h6>
+
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Partner - Tax Advisory Services
+                  </p>
+                </div>
+              </div>
+              <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "Muhammad Abdur Rub Khan",
+                      details: `
+                    
+Abdur Rub Khan is also Fellow of the Institute of Chartered Accountant of Pakistan (ICAP) and the Institute of Chartered Secretaries of Pakistan. He is also, a Fellow of Pakistan Institute of Public Finance Accountants (PIPFA) and the Certified Internal Auditor from the Institute of Internal Auditors, USA. He is a partner in the firm and in charge of Kabul operations also.
+
+Working in the field of social service, for the people, through enabling people to work for one another and giving them the potential, skills and courage to be able to stand up and become master of their destiny is the task he has been doing since a long time, starting when his father co-created READ foundation, and later when he joined Islamic Relief. He has founded many other NGOs and most of them are still working, as being taken over. He has also been in HANDS as a consultant for many years and providing back stopping in management operations and financial matters.
+
+During his post qualification experience, he served one of the leading Gas generation company. His diversified experience also comprises serving one of the leading accounting firms in Islamabad. He has vast experience of auditing various organizations in different sectors including telecommunication, electric supply, E&P sector, housing, distribution, pharma etc.
+
+He also possesses valuable reputation for his expertise in the public sector work. He has worked for various NGOs and business houses in his career as a person responsible for arranging finances, management support and other related issues to resolve problems occurring in the development and implementation of various projects and programmes in the field of emergencies, development and provision of livelihood access and support. He has traveled various parts of the word to assess the situation of business and social work maintained around the globe and to improve skills in relations to humanitarian service at the grass root level. He has been the main motivator in the field of micro enterprise development with leading global financiers like World Bank, ADB, USAID, DFID and their counterparts in Pakistan.
+                      `,
+                      email: "abdurrub@bakertilly.pk",
+                      image: partner1,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={partner1} style={{ width: "100%", height: "68%" }} />
+                <div style={{ marginTop: 10 }}>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Abdur Rub Khan{" "}
+                  </h6>
+
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Partner – Assurance and Business Advisory Services
+                  </p>
+                </div>
+              </div>
+              <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
                       name: "Mohammed Rehan Siddiqui",
                       details: `
 Mr. Mohammed Rehan Siddiqui serves as Tax partner at Baker Tilly Mehmood Idrees Qamar. He is a Fellow of the Institute of Chartered Accountants of Pakistan and the Institute of Cost and Management Accountants of Pakistan. He is also a member of Karachi Tax Bar Association and member All PTBA. He has earned a reputable fame over his 20 years of experience in the area of direct tax, regulatory compliance with the various regulatory bodies. He possesses valuable experience in tax planning and compliance for both local and overseas entities.
@@ -166,7 +260,60 @@ He is currently member of News and Views Committee of KTBA.
                   </p>
                 </div>
               </div>
-              <div
+              
+
+             
+            </div>
+            <div style={{ marginTop: 50 }} className="row">
+              {/* <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "Tariq Ahmad Khan ",
+                      details: `
+                        Mr. Tariq Ahmad Khan is the Partner-in-Charge at the Islamabad Office of Baker Tilly Mehmood Idrees Qamar and heads its Advisory Services. He is a Chartered Accountant and has well over 30 years’ experience in diversified business interests across Pakistan, Middle East and United Kingdom.
+  
+                        During his training in reputed accounting firms in Pakistan and United Kingdom, Mr. Khan gained in-depth experience auditing small family businesses, medium-size enterprises as well as listed and unlisted multinational corporations.
+                        
+                        Prior to returning to the accountancy profession, Mr. Khan gained extensive experience in variegated family conglomerates and blue-chip multinationals in a variety of executive roles and led multiple mergers, acquisitions and divestments, while raising billions of dollars in financing. He has had considerable experience in developing finance strategy and corporate structures whilst keeping in consideration the prevalent legal principles and reporting practices of the country.
+                        
+                        Mr. Ahmad is a fellow member of the Institute of Chartered Accountants of Pakistan along with being a member of the Canadian Association of Certified Management Consultants, and also holds associate membership of the Association of Certified Fraud Examiner, Austin, USA.
+                        `,
+                      email: "tariqkhan@bakertilly.pk",
+                      image: partner13,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={partner13} style={{ width: "100%", height: "68%" }} />
+                <div style={{ marginTop: 10 }}>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Tariq Ahmad Khan{" "}
+                  </h6>
+
+                  <p
+                    // className="aboutContent"
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Partner - Assurance and Business Advisory Services
+                  </p>
+                </div>
+              </div> */}
+
+<div
                 onClick={() => {
                   this.setState({
                     modal: true,
@@ -213,150 +360,6 @@ He is currently member of News and Views Committee of KTBA.
                     }}
                   >
                     Partner - Assurance and Business Advisory Services
-                  </p>
-                </div>
-              </div>
-
-              <div
-                onClick={() => {
-                  this.setState({
-                    modal: true,
-                    data: {
-                      name: "Qamar Rashid",
-                      details: `
-                        Mr. Qamar Rashid is a Fellow Member of the Institute of Chartered Accountants of Pakistan and a partner at Baker Tilly Mehmood Idrees Qamar.
-                        
-                        He has diversified experience of performing leading roles in the practice areas of audit and assurances, business advisory and tax consultancy.
-                        
-                        He has a long and successful career of practicing as partner in reputable firms of Pakistan.
-                        
-                        He is also a visiting professor of Company Law, Accounting and Auditing at both Foundation and Professional Levels of Chartered Accountancy and ACCA UK in SKANS School of Accountancy.`,
-
-                      email: "qamarrashid@bakertilly.pk",
-                      image: partner10,
-                    },
-                  });
-                }}
-                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
-              >
-                <img src={partner10} style={{ width: "100%", height: "68%" }} />
-                <div style={{ marginTop: 10 }}>
-                  <h6
-                    style={{
-                      fontSize: 17,
-                      fontFamily: "robotoRegular",
-                      textAlign: "center",
-                    }}
-                  >
-                    Qamar Rashid{" "}
-                  </h6>
-
-                  <p
-                    style={{
-                      color: "gray",
-                      fontWeight: "300",
-                      fontSize: 15,
-                      textAlign: "center",
-                    }}
-                  >
-                    Partner - Tax Advisory Services
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div style={{ marginTop: 50 }} className="row">
-              <div
-                onClick={() => {
-                  this.setState({
-                    modal: true,
-                    data: {
-                      name: "Tariq Ahmad Khan ",
-                      details: `
-                        Mr. Tariq Ahmad Khan is the Partner-in-Charge at the Islamabad Office of Baker Tilly Mehmood Idrees Qamar and heads its Advisory Services. He is a Chartered Accountant and has well over 30 years’ experience in diversified business interests across Pakistan, Middle East and United Kingdom.
-  
-                        During his training in reputed accounting firms in Pakistan and United Kingdom, Mr. Khan gained in-depth experience auditing small family businesses, medium-size enterprises as well as listed and unlisted multinational corporations.
-                        
-                        Prior to returning to the accountancy profession, Mr. Khan gained extensive experience in variegated family conglomerates and blue-chip multinationals in a variety of executive roles and led multiple mergers, acquisitions and divestments, while raising billions of dollars in financing. He has had considerable experience in developing finance strategy and corporate structures whilst keeping in consideration the prevalent legal principles and reporting practices of the country.
-                        
-                        Mr. Ahmad is a fellow member of the Institute of Chartered Accountants of Pakistan along with being a member of the Canadian Association of Certified Management Consultants, and also holds associate membership of the Association of Certified Fraud Examiner, Austin, USA.
-                        `,
-                      email: "tariqkhan@bakertilly.pk",
-                      image: partner13,
-                    },
-                  });
-                }}
-                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
-              >
-                <img src={partner13} style={{ width: "100%", height: "68%" }} />
-                <div style={{ marginTop: 10 }}>
-                  <h6
-                    style={{
-                      fontSize: 18,
-                      fontFamily: "robotoRegular",
-                      textAlign: "center",
-                    }}
-                  >
-                    Tariq Ahmad Khan{" "}
-                  </h6>
-
-                  <p
-                    // className="aboutContent"
-                    style={{
-                      color: "gray",
-                      fontWeight: "300",
-                      fontSize: 15,
-                      textAlign: "center",
-                    }}
-                  >
-                    Partner - Assurance and Business Advisory Services
-                  </p>
-                </div>
-              </div>
-
-              <div
-                onClick={() => {
-                  this.setState({
-                    modal: true,
-                    data: {
-                      name: "Muhammad Abdur Rub Khan",
-                      details: `
-                    
-Abdur Rub Khan is also Fellow of the Institute of Chartered Accountant of Pakistan (ICAP) and the Institute of Chartered Secretaries of Pakistan. He is also, a Fellow of Pakistan Institute of Public Finance Accountants (PIPFA) and the Certified Internal Auditor from the Institute of Internal Auditors, USA. He is a partner in the firm and in charge of Kabul operations also.
-
-Working in the field of social service, for the people, through enabling people to work for one another and giving them the potential, skills and courage to be able to stand up and become master of their destiny is the task he has been doing since a long time, starting when his father co-created READ foundation, and later when he joined Islamic Relief. He has founded many other NGOs and most of them are still working, as being taken over. He has also been in HANDS as a consultant for many years and providing back stopping in management operations and financial matters.
-
-During his post qualification experience, he served one of the leading Gas generation company. His diversified experience also comprises serving one of the leading accounting firms in Islamabad. He has vast experience of auditing various organizations in different sectors including telecommunication, electric supply, E&P sector, housing, distribution, pharma etc.
-
-He also possesses valuable reputation for his expertise in the public sector work. He has worked for various NGOs and business houses in his career as a person responsible for arranging finances, management support and other related issues to resolve problems occurring in the development and implementation of various projects and programmes in the field of emergencies, development and provision of livelihood access and support. He has traveled various parts of the word to assess the situation of business and social work maintained around the globe and to improve skills in relations to humanitarian service at the grass root level. He has been the main motivator in the field of micro enterprise development with leading global financiers like World Bank, ADB, USAID, DFID and their counterparts in Pakistan.
-                      `,
-                      email: "abdurrub@bakertilly.pk",
-                      image: partner1,
-                    },
-                  });
-                }}
-                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
-              >
-                <img src={partner1} style={{ width: "100%", height: "68%" }} />
-                <div style={{ marginTop: 10 }}>
-                  <h6
-                    style={{
-                      fontSize: 18,
-                      fontFamily: "robotoRegular",
-                      textAlign: "center",
-                    }}
-                  >
-                    Abdur Rub Khan{" "}
-                  </h6>
-
-                  <p
-                    style={{
-                      color: "gray",
-                      fontWeight: "300",
-                      fontSize: 15,
-                      textAlign: "center",
-                    }}
-                  >
-                    Partner – Assurance and Business Advisory Services
                   </p>
                 </div>
               </div>
@@ -453,9 +456,6 @@ He is also engaged in educational, training and capacity development activities 
                   </p>
                 </div>
               </div>
-            </div>
-
-            <div style={{ marginTop: 50 }} className="row">
               <div
                 onClick={() => {
                   this.setState({
@@ -508,6 +508,10 @@ He is also engaged in educational, training and capacity development activities 
                   </p>
                 </div>
               </div>
+            </div>
+
+            <div style={{ marginTop: 50 }} className="row">
+          
 
               <div
                 onClick={() => {
@@ -599,6 +603,49 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                   this.setState({
                     modal: true,
                     data: {
+                      name: "Ahsan Rasheed",
+                      details: `
+                      Mr. Ahsan Rasheed is heading the Management and Business Advisory Function at the Faisalabad office of Bakertilly Pakistan. He is a Fellow member of the Institute of Chartered Accountants of Pakistan (ICAP) and an Associate member of Institute of Chartered Accounants of England and Wales. His affiliation with ICAP also includes working as member of several working committees of the ICAP. He has an experience of over 12 years of working at senior management positions including the positions of CFO, Director Finance and COO in large manufacturing concerns. Mr. Ahsan has an extensive experience in handling complex financial transactions in the group structures including private acquisitions, dissolution and foreclosures. 
+His experience also includes setting up and successfully running one of Pakistan’s biggest e-commerce store. He has also received trainings and certifications in Advanced Corporate Finance, Forensic and Internal Audits from leading organizations both in Pakistan and outside Pakistan.
+
+                     `,
+                      email: "ahsanrasheed@bakertilly.pk",
+                      image: Ahsan,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={Ahsan} style={{ width: "100%", height: "68%" }} />
+                <div style={{ marginTop: 10 }}>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Ahsan Rasheed
+                  </h6>
+
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Partner - Business Advisory Services
+                  </p>
+                </div>
+              </div>
+
+              {/* <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
                       name: "Muhammad Faisal Yaqub",
                       details: `Mr. Muhammad Faisal Yaqub is Partner at the Islamabad Office of Baker Tilly Mehmood Idrees Qamar and leads its Taxation Advisory Services. He is an associate member of the Institute of Chartered Accountants of Pakistan and the Pakistan Institute of Public Finance Accountants. He has over 10 years’ experience in various aspects of the profession as well as in-depth knowledge of the industries that he has worked for. Before joining Baker Tilly, he has served as Head of Taxation of renowned corporate groups in Pakistan.`,
                       email: "faisalyaqub@bakertilly.pk",
@@ -634,10 +681,82 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                     Partner – Tax Advisory Services
                   </p>
                 </div>
-              </div>
-            </div>
-            <div className="row" style={{ marginTop: 50 }}>
+              </div> */}
               <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "Faisal Ali Butt",
+                      details: `
+                      Mr. Faisal Ali Butt is heading Audit and Secretarial departments at Faisalabad office of Baker Tilly Pakistan. He is an associate member of Institute of Chartered Accountants of Pakistan and Law Graduate from Univerty of the Punjab. He has diversified experience in fields of audit, taxation and Secretarial assignments of listed and non listed clients in different industry sectors including textile, chemical, construction, Information technology, transportation, real estate, brokerage houses, food and Modarabas.
+During course of his career Mr. Faisal has conducted multiple assignments of system design and implementation including system audit of multiple clients. He has successfully conducted multiple Quality Control Reviews by Institute of Chartered Accountant of Pakistan. Before joining Baker Tilly he has headed one of the oldest and renowned Chartered Accountant firm office as Partner. 
+
+
+                     `,
+                      email: "faisalali@bakertilly.pk",
+                      image: Faisal1,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={Faisal1} style={{ width: "100%", height: "68%" }} />
+                <div style={{ marginTop: 10 }}>
+                  <h6
+                    style={{
+                      fontSize: 18,
+                      fontFamily: "robotoRegular",
+                      textAlign: "center",
+                    }}
+                  >
+                    Faisal Ali Butt
+                  </h6>
+
+                  <p
+                    style={{
+                      color: "gray",
+                      fontWeight: "300",
+                      fontSize: 15,
+                      textAlign: "center",
+                    }}
+                  >
+                    Partner - Audit and Assurance
+                  </p>
+                </div>
+              </div>
+              <div
+                onClick={() => {
+                  this.setState({
+                    modal: true,
+                    data: {
+                      name: "Muhammad Najamussaqib Shah",
+                      details: `
+                      Najmussaqib Shah, a Fellow Member of the Institute of Chartered Accountants of Pakistan (ICAP), is a seasoned professional with a successful career spanning over two decades. He has a proven track record of delivering exceptional audit and assurance services to clients across diverse industries.
+Having served prestigious firms such as KPMG, EY, Grant Thornton, Crowe Horwath, and currently serving as a Partner at Baker Tilly, Najmussaqib has acquired extensive experience and led transformative initiatives. He has spearheaded the implementation of new audit tools and data analytics, contributing to enhanced efficiency and effectiveness.
+His expertise lies in financial reporting adhering to international standards, including IFRS and US GAAP, as well as providing assurance services in alignment with ISAs, GAGAS, and US GAAS. He possesses a strong proficiency in data analytics, forensic audits, due diligence, troubled debt restructuring, and financial planning.
+With a deep understanding of the banking, telecom, energy, oil & gas, and development sectors, Najmussaqib has also successfully led several assignments for prominent public sector entities. His experience extends to cross-border projects across Europe, Africa, CIS, and South Asia, which were funded by European Commission, USAID, UNDP, UNICEF, UNFPA, KfW, DFID, and GIZ.
+
+
+
+                     `,
+                      // email: "muhammadnajamussaqibshah@bakertilly.pk",
+                      image: najam,
+                    },
+                  });
+                }}
+                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
+              >
+                <img src={najam} style={{ width: "100%" , height: "68%"}} />
+                <div style={{ marginTop: 10 }}>
+                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center"}}>Muhammad Najamussaqib Shah</h6>
+
+                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
+                  Partner - Tax Advisory Services
+                  </p>
+                </div>
+              </div>
+                <div
                 onClick={() => {
                   this.setState({
                     modal: true,
@@ -772,6 +891,10 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                   </p>
                 </div>
               </div>
+            </div>
+            <div className="row" style={{ marginTop: 50 }}>
+            
+             
               <div
                 onClick={() => {
                   this.setState({
@@ -816,96 +939,7 @@ Mr. Tariq is an Associate member of the Institute of Chartered Accountants of Pa
                   </p>
                 </div>
               </div>
-            </div>
-
-            <div style={{ marginTop: 50 }} className="row">
-              <div
-                onClick={() => {
-                  this.setState({
-                    modal: true,
-                    data: {
-                      name: "Ahsan Rasheed",
-                      details: `
-                      Mr. Ahsan Rasheed is heading the Management and Business Advisory Function at the Faisalabad office of Bakertilly Pakistan. He is a Fellow member of the Institute of Chartered Accountants of Pakistan (ICAP) and an Associate member of Institute of Chartered Accounants of England and Wales. His affiliation with ICAP also includes working as member of several working committees of the ICAP. He has an experience of over 12 years of working at senior management positions including the positions of CFO, Director Finance and COO in large manufacturing concerns. Mr. Ahsan has an extensive experience in handling complex financial transactions in the group structures including private acquisitions, dissolution and foreclosures. 
-His experience also includes setting up and successfully running one of Pakistan’s biggest e-commerce store. He has also received trainings and certifications in Advanced Corporate Finance, Forensic and Internal Audits from leading organizations both in Pakistan and outside Pakistan.
-
-                     `,
-                      email: "ahsanrasheed@bakertilly.pk",
-                      image: Ahsan,
-                    },
-                  });
-                }}
-                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
-              >
-                <img src={Ahsan} style={{ width: "100%", height: "68%" }} />
-                <div style={{ marginTop: 10 }}>
-                  <h6
-                    style={{
-                      fontSize: 18,
-                      fontFamily: "robotoRegular",
-                      textAlign: "center",
-                    }}
-                  >
-                    Ahsan Rasheed
-                  </h6>
-
-                  <p
-                    style={{
-                      color: "gray",
-                      fontWeight: "300",
-                      fontSize: 15,
-                      textAlign: "center",
-                    }}
-                  >
-                    Director - Business Advisory Services
-                  </p>
-                </div>
-              </div>
-
-              <div
-                onClick={() => {
-                  this.setState({
-                    modal: true,
-                    data: {
-                      name: "Faisal Ali Butt",
-                      details: `
-                      Mr. Faisal Ali Butt is heading Audit and Secretarial departments at Faisalabad office of Baker Tilly Pakistan. He is an associate member of Institute of Chartered Accountants of Pakistan and Law Graduate from Univerty of the Punjab. He has diversified experience in fields of audit, taxation and Secretarial assignments of listed and non listed clients in different industry sectors including textile, chemical, construction, Information technology, transportation, real estate, brokerage houses, food and Modarabas.
-During course of his career Mr. Faisal has conducted multiple assignments of system design and implementation including system audit of multiple clients. He has successfully conducted multiple Quality Control Reviews by Institute of Chartered Accountant of Pakistan. Before joining Baker Tilly he has headed one of the oldest and renowned Chartered Accountant firm office as Partner. 
-
-
-                     `,
-                      email: "faisalali@bakertilly.pk",
-                      image: Faisal1,
-                    },
-                  });
-                }}
-                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
-              >
-                <img src={Faisal1} style={{ width: "100%", height: "68%" }} />
-                <div style={{ marginTop: 10 }}>
-                  <h6
-                    style={{
-                      fontSize: 18,
-                      fontFamily: "robotoRegular",
-                      textAlign: "center",
-                    }}
-                  >
-                    Faisal Ali Butt
-                  </h6>
-
-                  <p
-                    style={{
-                      color: "gray",
-                      fontWeight: "300",
-                      fontSize: 15,
-                      textAlign: "center",
-                    }}
-                  >
-                    Director - Audit and Assurance
-                  </p>
-                </div>
-              </div>
-
+              
               <div
                 onClick={() => {
                   this.setState({
@@ -953,33 +987,14 @@ Mr. Naveed Abbass has extensive experience in federal and provincial sales tax a
                   </p>
                 </div>
               </div>
-              {/* <div
-                onClick={() => {
-                  this.setState({
-                    modal: true,
-                    data: {
-                      name: "Aqeel Abbas",
-                      details: `
-                      Mr. Aqeel Abbas is heading the Taxation Department at the Faisalabad Office of Bakertilly. He is a certified Income Tax Practitioner and an advocate High Court. He has over 23 years of experience in planning direct and indirect taxation. He looks after the cases of both individual and corporate sectors at the adjudication levels, and also successfully handled cases at Commissioner Appeal and at Appellate Fora. He is also involved in handling and pursuing cases related to matters which are to be dealt at High Court. He has been actively involved in the BAR activities and was Finance Secretary of the Faisalabad Tax Bar in the year 2019. Before joining Bakertilly, Mr. Aqeel has served as the head of Taxation of one of the oldest CA firms In Pakistan.
+              
+            </div>
 
+            <div style={{ marginTop: 50 }} className="row">
+          
 
-                     `,
-                      email: "aqeelabbas@bakertilly.pk",
-                      image: Aqeel,
-                    },
-                  });
-                }}
-                className="col-lg-3 col-md-3 col-sm-2 imageContainer"
-              >
-                <img src={Aqeel} style={{ width: "100%" , height: "68%"}} />
-                <div style={{ marginTop: 10 }}>
-                  <h6 style={{ fontSize: 18, fontFamily: "robotoRegular",textAlign: "center"}}>Aqeel Abbas</h6>
-
-                  <p style={{ color: "gray", fontWeight: "300", fontSize: 15, textAlign: "center" }}>
-                  Director - Tax Advisory Services
-                  </p>
-                </div>
-              </div> */}
+              
+              
             </div>
 
             {/* <div style={{ marginTop: 50 }} className="row">

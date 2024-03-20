@@ -8,7 +8,7 @@ import slide4 from "../assets/img/slide9.jpg";
 import slide5 from "../assets/img/slide10.jpg";
 import slide6 from "../assets/img/slide11.jpg";
 import slide7 from "../assets/slides/slide-1.jpeg";
-import slide8 from "../assets/slides/Ok 394_AERIAL.jpg";
+import slide8 from "../assets/img/slide8.jpg";
 import slide9 from "../assets/slides/Main Slide2.jpg";
 import slide10 from "../assets/slides/Ok 485_AERIAL.jpg";
 import slide11 from "../assets/slides/slide11.jpeg";
@@ -117,7 +117,7 @@ export default class Home extends Component {
 
           {/* image */}
           <img
-            style={{ width: "100%", height: 500, objectFit: "cover" }}
+            style={{ width: "100%", height: 928, objectFit: "cover" }}
             src={slide8}
           />
 

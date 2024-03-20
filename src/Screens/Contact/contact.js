@@ -225,7 +225,7 @@ export default class Contact extends Component {
                         flexGrow: 1,
                       }}
                     >
-                      <h6>Islamabad - I</h6>
+                      <h6>Islamabad</h6>
                       <div
                         style={{
                           width: 150,
@@ -244,7 +244,7 @@ export default class Contact extends Component {
                           fontSize: 20,
                         }}
                       >
-                        Office 07, 3rd Floor, Pakland Square, G-8 Markaz,
+                        Office 401, 4th floor, Mauve Area, RDF Centre, G - 9/1, 
                         Islamabad.
                         <br />
                         <div
@@ -257,26 +257,24 @@ export default class Contact extends Component {
                           }}
                         />
                         <span>
-                          <i class="fa fa-phone" aria-hidden="true"></i>
+                          {/* <i class="fa fa-phone" aria-hidden="true"></i>
                         </span>{" "}
                         +(92-51) 2340353
                         <br />{" "}
-                        <span>
+                        <span> */}
                           <i class="fa fa-fax" aria-hidden="true"></i>
                         </span>{" "}
-                        +(92-51) 5833461
+                        051-4717808
                       </p>
                     </div>
                   </div>
                 </div>
 
                 <div style={{ width: "100%", marginTop: 30 }} className="row">
-                  <div
+                  {/* <div
                     style={{
                       display: "flex",
                       flexDirection: "column",
-                      // flex: 1,
-                      // flexGrow: 1,
                     }}
                     className="col-md-4"
                   >
@@ -310,8 +308,8 @@ export default class Contact extends Component {
                           fontSize: 20,
                         }}
                       >
-                        1st Floor, Boquival Tower, Street 27-A, Crimson Road,
-                        Sector H, DHA Phase-2, Islamabad
+                         Office 401, 4th floor, Mauve Area, RDF Centre, G - 9/1, 
+                        Islamabad.
                         <br />
                         <div
                           style={{
@@ -325,11 +323,11 @@ export default class Contact extends Component {
                         <span>
                           <i class="fa fa-phone" aria-hidden="true"></i>
                         </span>{" "}
-                        051-5418642
+                        051-4717808
                         <br />{" "}
                       </p>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div
                     style={{
